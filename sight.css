@@ -1,0 +1,47 @@
+.work , .aboutme , .contactme{
+    display: none;
+}
+section{
+    text-align: center;
+    margin: 0px 250px 0px 250px;
+    background-color: white;
+    
+}
+#positive{
+    width: 100%;
+    height: 500;
+    background-color:  black;
+    filter: blur(6px);
+    -webkit-filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .centered {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: burlywood;
+}
+.disclaimer{
+    display: none;
+}
+p{
+    font-size: 20px;
+}
+.bg{
+    text-align: left;
+}
+body{
+   height: 2000px;
+}
