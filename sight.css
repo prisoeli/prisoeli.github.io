@@ -45,3 +45,7 @@ p{
 body{
    height: 2000px;
 }
+.colleges img{
+    width: 20%;
+    padding: 3px;
+}
