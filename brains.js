@@ -1,6 +1,11 @@
 $(document).ready(function () {
     $(".centered").slideDown(2000);
-    
+    $(".navbar").mouseenter(function(){
+       $(".navbar").css("height","75px"); 
+    })
+    $(".navbar").mouseleave(function(){
+        $(".navbar").css("height","60px"); 
+     })
         $(".workpage").click(function () {
             $(".home").slideUp(1000);
             $(".aboutme").slideUp(1000);
