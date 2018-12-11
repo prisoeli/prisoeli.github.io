@@ -19,8 +19,9 @@ $(document).ready(function () {
         $(".btn").html("More about me...")
     })
     $(".btn").click(function(){
-        $(".moreaboutme").slideDown();
-        $(".btn").html("Less about me...");
+        $(".moreaboutme").slideToggle(function(){
+            $(".btn").html("Less about me...");
+        });
     })
     // $(".btn").click(function(){
     //     $(".moreaboutme").slideUp();
