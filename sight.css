@@ -29,12 +29,21 @@ section{
     text-shadow: 3px 3px black;
     text-align: center;
 }
-footer{
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
     text-align: center;
-    background-color: burlywood;
 }
+
 .disclaimer{
-    display: none;
+    text-align: center;
+color: white;
 }
 p{
     font-size: 20px;
@@ -42,10 +51,86 @@ p{
 .bg{
     text-align: left;
 }
-body{
-   height: 2000px;
-}
 .colleges img{
     width: 20%;
     padding: 3px;
 }
+
+.activities img{
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+ .myworks {
+    position: relative;
+    max-width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .myworks img {
+      vertical-align: middle;
+    }
+  
+  .myworks .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 200px;
+    padding: 2px;
+  }
+.logo{
+    font-family: 'Covered By Your Grace', cursive;
+    text-shadow: 3px 3px 3px black;
+}
+h3{
+    font-family: 'Covered By Your Grace', cursive; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: radial-gradient(yellow,purple);
+    color: white;
+  }
+  .social{
+      display: none;
+      text-align: center;
+  }  
+  i {
+    border: solid grey;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 710px;
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  .moreaboutme{
+      display: none;
+  }
