@@ -1,13 +1,5 @@
 $(document).ready(function () {
     $(".centered").slideDown(2000);
-    $(".navbar").mouseenter(function(){
-       $(".navbar").css("height","75px"); 
-       $(".logo").css("font-size","40px");
-    })
-    $(".navbar").mouseleave(function(){
-        $(".navbar").css("height","60px"); 
-        $(".logo").css("font-size","25px");
-     })
      $("footer").mouseenter(function(){
          $(".social").slideDown();
      })
